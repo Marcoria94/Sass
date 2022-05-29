@@ -1,0 +1,120 @@
+.bodyHome {
+  background-image: url(../img/fondohome.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat; }
+
+.headerHome {
+  height: 75vh; }
+  .headerHome nav .navbar .container-fluid {
+    background-color: #345B63;
+    filter: alpha(opacity=80);
+    opacity: 0.8; }
+    .headerHome nav .navbar .container-fluid .navbar-brand {
+      color: #D4ECDD; }
+    .headerHome nav .navbar .container-fluid .collapse .navbar-nav {
+      font-size: 1.3rem;
+      list-style-type: none;
+      padding: 0.3rem;
+      margin: 0.5rem;
+      font-weight: 300;
+      text-decoration: none;
+      width: 100%;
+      background-color: #345B63;
+      filter: alpha(opacity=80);
+      opacity: 0.8;
+      justify-content: center;
+      gap: 1rem; }
+      .headerHome nav .navbar .container-fluid .collapse .navbar-nav .nav-item :hover {
+        background-color: #152D35; }
+      .headerHome nav .navbar .container-fluid .collapse .navbar-nav .nav-item a {
+        color: #D4ECDD;
+        font-weight: 600; }
+
+.mainHome {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  grid-template-areas: "h1Home h1Home" "sectionHome sectionHome" "h2Home2 h2Home2" "imagen1 imagen1" "imagen2 imagen2" "imagen3 imagen3" "imagen4 imagen4"; }
+  .mainHome .h1Home {
+    grid-area: h1Home;
+    padding: 0.5rem;
+    margin: 0.5rem;
+    background-color: #152D35;
+    filter: alpha(opacity=80);
+    opacity: 0.8;
+    border: 1px solid black;
+    text-align: center;
+    display: inline-block;
+    color: #D4ECDD; }
+  .mainHome .sectionHome {
+    height: 120vh;
+    grid-area: sectionHome;
+    text-align: center;
+    background-color: #152D35;
+    filter: alpha(opacity=80);
+    opacity: 0.8;
+    margin: 0.3rem;
+    scroll-behavior: auto; }
+    .mainHome .sectionHome .h2Home {
+      padding: 0.5rem;
+      grid-area: h2Home;
+      margin: 1rem;
+      color: #D4ECDD; }
+    .mainHome .sectionHome .pHome {
+      grid-area: pHome;
+      padding: 0.3rem;
+      margin: 0.5rem;
+      color: black;
+      text-align: center;
+      color: #D4ECDD; }
+  .mainHome .h2Home2 {
+    background-image: linear-gradient(#152D35, #13a54b);
+    padding: 0.5rem;
+    display: inline;
+    grid-area: h2Home2;
+    color: #D4ECDD;
+    border: solid 1px black;
+    margin: 0.3rem;
+    text-align: center; }
+    .mainHome .h2Home2 .animate__animate.animate__heartBeat {
+      animation-duration: 2s; }
+  .mainHome .h2Home2:hover {
+    transform: scale(1.05); }
+  .mainHome .imagen1 {
+    display: flex;
+    justify-content: center;
+    grid-area: imagen1; }
+  .mainHome .imagen2 {
+    display: flex;
+    justify-content: center;
+    grid-area: imagen2; }
+  .mainHome .imagen3 {
+    display: flex;
+    justify-content: center;
+    grid-area: imagen3; }
+  .mainHome .imagen4 {
+    display: flex;
+    justify-content: center;
+    grid-area: imagen4; }
+
+@media screen and (min-width: 600px) {
+  .mainHome {
+    gap: 0.3rem;
+    grid-template-areas: "h1Home h1Home" "sectionHome sectionHome" "h2Home2 h2Home2" "imagen1 imagen2" "imagen3 imagen4"; } }
+
+@media screen and (min-width: 1200px) {
+  .mainHome {
+    gap: 0.3rem;
+    grid-template-areas: "h1Home h1Home h1Home h1Home" "sectionHome sectionHome sectionHome h2Home2" "sectionHome sectionHome sectionHome imagen1" "sectionHome sectionHome sectionHome imagen2" "sectionHome sectionHome sectionHome imagen3" "sectionHome sectionHome sectionHome imagen4"; } }
+
+footer {
+  filter: alpha(opacity=80);
+  opacity: 0.8;
+  margin: 5px;
+  background-color: #112031; }
+  footer h4 {
+    text-align: center;
+    border: 1px solid black;
+    color: #D4ECDD;
+    padding: 0.5rem; }

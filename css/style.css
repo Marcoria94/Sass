@@ -1,3 +1,264 @@
+.mainDescargas .h1Descargas, .container .h1Contacto, .mainInformacion .h1Informacion, .mainRegistrate .h1Registrate, .secRegistrate .h2Registrate {
+  margin: 1rem;
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 1rem; }
+
+.mainInformacion .divUno .ulInformacion, .mainInformacion .divDos .ulInformacion2, .mainInformacion .divTres .ulInformacion3, .mainInformacion .divCuatro .ulInformacion4 {
+  color: #D4ECDD;
+  list-style-type: none;
+  text-align: center;
+  background-color: #152D35;
+  filter: alpha(opacity=80);
+  opacity: 0.8;
+  font-size: 25px;
+  font-weight: 100;
+  border: 1px solid black;
+  margin: 5px;
+  padding: 5px; }
+
+.bodyDescargas {
+  background-image: url(../img/410357.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat; }
+
+.mainDescargas {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center; }
+  .mainDescargas .h1Descargas {
+    width: 70%;
+    grid-area: h1;
+    background-color: #152D35;
+    filter: alpha(opacity=80);
+    opacity: 0.8;
+    text-align: center;
+    color: #D4ECDD; }
+  .mainDescargas .divDesc {
+    padding: 1rem;
+    width: 70%;
+    background-color: #152D35;
+    filter: alpha(opacity=80);
+    opacity: 0.8; }
+    .mainDescargas .divDesc .pDescargas {
+      margin: 1rem;
+      padding: 1rem;
+      text-align: center;
+      font-size: 1.5rem;
+      color: #D4ECDD; }
+    .mainDescargas .divDesc h2 {
+      color: #D4ECDD; }
+  .mainDescargas .divDesc2 {
+    padding: 1rem;
+    background-color: #152D35;
+    filter: alpha(opacity=80);
+    opacity: 0.8;
+    width: 70%; }
+    .mainDescargas .divDesc2 h2 {
+      text-align: center;
+      color: #D4ECDD; }
+
+.mainDescargas .h1Descargas, .container .h1Contacto, .mainInformacion .h1Informacion, .mainRegistrate .h1Registrate, .secRegistrate .h2Registrate {
+  margin: 1rem;
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 1rem; }
+
+.mainInformacion .divUno .ulInformacion, .mainInformacion .divDos .ulInformacion2, .mainInformacion .divTres .ulInformacion3, .mainInformacion .divCuatro .ulInformacion4 {
+  color: #D4ECDD;
+  list-style-type: none;
+  text-align: center;
+  background-color: #152D35;
+  filter: alpha(opacity=80);
+  opacity: 0.8;
+  font-size: 25px;
+  font-weight: 100;
+  border: 1px solid black;
+  margin: 5px;
+  padding: 5px; }
+
+.bodyContacto {
+  background-image: url(../img/fondocont.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat; }
+
+.container .h1Contacto {
+  background-color: #152D35;
+  filter: alpha(opacity=80);
+  opacity: 0.8;
+  color: #D4ECDD; }
+
+.container .formContacto {
+  color: #D4ECDD;
+  background-color: #152D35;
+  filter: alpha(opacity=80);
+  opacity: 0.8;
+  padding: 1rem;
+  text-align: center;
+  font-size: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+  .container .formContacto .form div input {
+    margin-top: 0.5rem;
+    border: 1px solid black;
+    color: black;
+    padding: 0.2rem; }
+
+.container .row .pContacto {
+  color: #D4ECDD;
+  text-align: center;
+  font-weight: 300;
+  font-size: 1rem; }
+  .container .row .pContacto span {
+    color: blue;
+    font-size: 1.5rem; }
+
+.container .row .imgContacto {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 0.3rem; }
+
+.mainDescargas .h1Descargas, .container .h1Contacto, .mainInformacion .h1Informacion, .mainRegistrate .h1Registrate, .secRegistrate .h2Registrate {
+  margin: 1rem;
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 1rem; }
+
+.mainInformacion .divUno .ulInformacion, .mainInformacion .divDos .ulInformacion2, .mainInformacion .divTres .ulInformacion3, .mainInformacion .divCuatro .ulInformacion4 {
+  color: #D4ECDD;
+  list-style-type: none;
+  text-align: center;
+  background-color: #152D35;
+  filter: alpha(opacity=80);
+  opacity: 0.8;
+  font-size: 25px;
+  font-weight: 100;
+  border: 1px solid black;
+  margin: 5px;
+  padding: 5px; }
+
+.bodyInformacion {
+  background-image: url(../img/fondoInf.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat; }
+
+.mainInformacion {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  grid-template-areas: "h1 h1" "divUno divUno" "divDos divDos" "divTres divTres" "divCuatro divCuatro"; }
+  .mainInformacion .h1Informacion {
+    grid-area: h1;
+    text-align: center;
+    color: #D4ECDD;
+    background-color: #152D35;
+    filter: alpha(opacity=80);
+    opacity: 0.8; }
+  .mainInformacion .divUno {
+    grid-area: divUno; }
+  .mainInformacion .divDos {
+    grid-area: divDos; }
+  .mainInformacion .divTres {
+    grid-area: divTres; }
+  .mainInformacion .divCuatro {
+    grid-area: divCuatro; }
+
+@media screen and (min-width: 600px) {
+  .mainInformacion {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-areas: "h1 h1" "divUno divDos" "divTres divCuatro"; } }
+
+@media screen and (min-width: 1200px) {
+  .mainInformacion {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-areas: "h1 h1 h1 h1" "divUno divUno divDos divDos" "divTres divTres divCuatro divCuatro"; } }
+
+.bodyRegistrate {
+  background-image: url(../img/fondoreg.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat; }
+
+.mainRegistrate {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+  .mainRegistrate .h1Registrate {
+    width: 60%;
+    background-color: #152D35;
+    filter: alpha(opacity=80);
+    opacity: 0.8;
+    text-align: center;
+    color: #D4ECDD; }
+  .mainRegistrate .formRegistrate {
+    width: 60%;
+    color: #D4ECDD;
+    background-color: #152D35;
+    filter: alpha(opacity=80);
+    opacity: 0.8;
+    margin: 1rem;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 200;
+    padding: 1rem; }
+
+.secRegistrate {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+  .secRegistrate .h2Registrate {
+    width: 60%;
+    background-color: #152D35;
+    filter: alpha(opacity=80);
+    opacity: 0.8;
+    text-align: center;
+    color: #D4ECDD; }
+  .secRegistrate .form2Registrate {
+    width: 60%;
+    color: #D4ECDD;
+    background-color: #152D35;
+    filter: alpha(opacity=80);
+    opacity: 0.8;
+    margin: 1rem;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 200;
+    padding: 1rem; }
+
+.mainDescargas .h1Descargas, .container .h1Contacto, .mainInformacion .h1Informacion, .mainRegistrate .h1Registrate, .secRegistrate .h2Registrate {
+  margin: 1rem;
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 1rem; }
+
+.mainInformacion .divUno .ulInformacion, .mainInformacion .divDos .ulInformacion2, .mainInformacion .divTres .ulInformacion3, .mainInformacion .divCuatro .ulInformacion4 {
+  color: #D4ECDD;
+  list-style-type: none;
+  text-align: center;
+  background-color: #152D35;
+  filter: alpha(opacity=80);
+  opacity: 0.8;
+  font-size: 25px;
+  font-weight: 100;
+  border: 1px solid black;
+  margin: 5px;
+  padding: 5px; }
+
 .bodyHome {
   background-image: url(../img/fondohome.jpg);
   background-size: cover;
@@ -6,30 +267,31 @@
 
 .headerHome {
   height: 75vh; }
-  .headerHome nav .navbar .container-fluid {
+
+header nav .navbar .container-fluid {
+  background-color: #345B63;
+  filter: alpha(opacity=80);
+  opacity: 0.8; }
+  header nav .navbar .container-fluid .navbar-brand {
+    color: #D4ECDD; }
+  header nav .navbar .container-fluid .collapse .navbar-nav {
+    font-size: 1.3rem;
+    list-style-type: none;
+    padding: 0.3rem;
+    margin: 0.5rem;
+    font-weight: 300;
+    text-decoration: none;
+    width: 100%;
     background-color: #345B63;
     filter: alpha(opacity=80);
-    opacity: 0.8; }
-    .headerHome nav .navbar .container-fluid .navbar-brand {
-      color: #D4ECDD; }
-    .headerHome nav .navbar .container-fluid .collapse .navbar-nav {
-      font-size: 1.3rem;
-      list-style-type: none;
-      padding: 0.3rem;
-      margin: 0.5rem;
-      font-weight: 300;
-      text-decoration: none;
-      width: 100%;
-      background-color: #345B63;
-      filter: alpha(opacity=80);
-      opacity: 0.8;
-      justify-content: center;
-      gap: 1rem; }
-      .headerHome nav .navbar .container-fluid .collapse .navbar-nav .nav-item :hover {
-        background-color: #152D35; }
-      .headerHome nav .navbar .container-fluid .collapse .navbar-nav .nav-item a {
-        color: #D4ECDD;
-        font-weight: 600; }
+    opacity: 0.8;
+    justify-content: center;
+    gap: 1rem; }
+    header nav .navbar .container-fluid .collapse .navbar-nav .nav-item :hover {
+      background-color: #152D35; }
+    header nav .navbar .container-fluid .collapse .navbar-nav .nav-item a {
+      color: #D4ECDD;
+      font-weight: 600; }
 
 .mainHome {
   display: grid;
@@ -40,13 +302,13 @@
     grid-area: h1Home;
     padding: 0.5rem;
     margin: 0.5rem;
-    background-color: #152D35;
-    filter: alpha(opacity=80);
-    opacity: 0.8;
     border: 1px solid black;
     text-align: center;
     display: inline-block;
-    color: #D4ECDD; }
+    color: #D4ECDD;
+    background-color: #152D35;
+    filter: alpha(opacity=80);
+    opacity: 0.8; }
   .mainHome .sectionHome {
     height: 120vh;
     grid-area: sectionHome;
@@ -83,19 +345,27 @@
     transform: scale(1.05); }
   .mainHome .imagen1 {
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
     grid-area: imagen1; }
   .mainHome .imagen2 {
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
     grid-area: imagen2; }
   .mainHome .imagen3 {
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
     grid-area: imagen3; }
   .mainHome .imagen4 {
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
     grid-area: imagen4; }
 
 @media screen and (min-width: 600px) {

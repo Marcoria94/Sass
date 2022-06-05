@@ -1,0 +1,66 @@
+@import "mixins";
+@import "extend";
+@import "utilities/variables";
+
+.bodyContacto {
+    background-image: url(../img/fondocont.jpg);
+    @include background;
+}
+
+.container {
+    .h1Contacto {
+        @include colorbg;
+        color: $color-letras;
+        @extend %h1;
+    }
+
+    .formContacto {
+        color: $color-letras;
+        @include colorbg;
+        padding: 1rem;
+        text-align: center;
+        font-size: 1.5rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        .form {
+            div {
+                input {
+                    margin-top: 0.5rem;
+                    border: 1px solid black;
+                    color: black;
+                    padding: 0.2rem;
+                }
+
+            }
+        }
+
+        
+
+
+    }
+    .row {
+        .pContacto {
+            color: $color-letras;
+            text-align: center;
+            font-weight: 300;
+            font-size: 1rem;
+
+            span {
+                color: blue;
+                font-size: 1.5rem;
+            }
+        }
+
+        .imgContacto {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            gap: 0.3rem;
+        }
+
+    }
+}

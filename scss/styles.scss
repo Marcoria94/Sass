@@ -1,14 +1,22 @@
 @import "utilities/variables";
+@import "base/descargas";
+@import "base/contacto";
+@import "base/informacion";
+@import "base/registrate";
+@import "base/mixins";
+@import "base/extend";
 
 .bodyHome {
     background-image: url(../img/fondohome.jpg);
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
+    @include background;
 }
 
 .headerHome {
     height: 75vh;
+}
+
+header {
+
 
     nav {
         .navbar {
@@ -72,22 +80,18 @@
         grid-area: h1Home;
         padding: 0.5rem;
         margin: 0.5rem;
-        background-color: $color-secundario;
-        filter: alpha(opacity=80);
-        opacity: 0.8;
         border: 1px solid black;
         text-align: center;
         display: inline-block;
         color: $color-letras;
+        @include colorbg;
     }
 
     .sectionHome {
         height: 120vh;
         grid-area: sectionHome;
         text-align: center;
-        background-color: $color-secundario;
-        filter: alpha(opacity=80);
-        opacity: 0.8;
+        @include colorbg;
         margin: 0.3rem;
         scroll-behavior: auto;
 
@@ -129,29 +133,25 @@
     }
 
     .imagen1 {
-        display: flex;
-        justify-content: center;
+        @include flex;
         grid-area: imagen1;
     }
 
     .imagen2 {
-        display: flex;
-        justify-content: center;
+        @include flex;
         grid-area: imagen2;
 
     }
 
     .imagen3 {
-        display: flex;
-        justify-content: center;
+        @include flex;
         grid-area: imagen3;
 
     }
 
     .imagen4 {
-        display: flex;
-        justify-content: center;
-        grid-area: imagen4;
+       @include flex;
+       grid-area: imagen4;
     }
 
 

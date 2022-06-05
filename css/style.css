@@ -1,8 +1,7 @@
 .mainDescargas .h1Descargas, .container .h1Contacto, .mainInformacion .h1Informacion, .mainRegistrate .h1Registrate, .secRegistrate .h2Registrate {
   margin: 1rem;
   padding: 10px;
-  border: 1px solid black;
-  border-radius: 1rem; }
+  border: 1px solid black; }
 
 .mainInformacion .divUno .ulInformacion, .mainInformacion .divDos .ulInformacion2, .mainInformacion .divTres .ulInformacion3, .mainInformacion .divCuatro .ulInformacion4 {
   color: #D4ECDD;
@@ -64,8 +63,7 @@
 .mainDescargas .h1Descargas, .container .h1Contacto, .mainInformacion .h1Informacion, .mainRegistrate .h1Registrate, .secRegistrate .h2Registrate {
   margin: 1rem;
   padding: 10px;
-  border: 1px solid black;
-  border-radius: 1rem; }
+  border: 1px solid black; }
 
 .mainInformacion .divUno .ulInformacion, .mainInformacion .divDos .ulInformacion2, .mainInformacion .divTres .ulInformacion3, .mainInformacion .divCuatro .ulInformacion4 {
   color: #D4ECDD;
@@ -129,8 +127,7 @@
 .mainDescargas .h1Descargas, .container .h1Contacto, .mainInformacion .h1Informacion, .mainRegistrate .h1Registrate, .secRegistrate .h2Registrate {
   margin: 1rem;
   padding: 10px;
-  border: 1px solid black;
-  border-radius: 1rem; }
+  border: 1px solid black; }
 
 .mainInformacion .divUno .ulInformacion, .mainInformacion .divDos .ulInformacion2, .mainInformacion .divTres .ulInformacion3, .mainInformacion .divCuatro .ulInformacion4 {
   color: #D4ECDD;
@@ -243,8 +240,7 @@
 .mainDescargas .h1Descargas, .container .h1Contacto, .mainInformacion .h1Informacion, .mainRegistrate .h1Registrate, .secRegistrate .h2Registrate {
   margin: 1rem;
   padding: 10px;
-  border: 1px solid black;
-  border-radius: 1rem; }
+  border: 1px solid black; }
 
 .mainInformacion .divUno .ulInformacion, .mainInformacion .divDos .ulInformacion2, .mainInformacion .divTres .ulInformacion3, .mainInformacion .divCuatro .ulInformacion4 {
   color: #D4ECDD;
@@ -266,7 +262,7 @@
   background-repeat: no-repeat; }
 
 .headerHome {
-  height: 75vh; }
+  height: 60vh; }
 
 header nav .navbar .container-fluid {
   background-color: #345B63;
@@ -314,10 +310,8 @@ header nav .navbar .container-fluid {
     grid-area: sectionHome;
     text-align: center;
     background-color: #152D35;
-    filter: alpha(opacity=80);
-    opacity: 0.8;
     margin: 0.3rem;
-    scroll-behavior: auto; }
+    overflow: auto; }
     .mainHome .sectionHome .h2Home {
       padding: 0.5rem;
       grid-area: h2Home;

@@ -12,7 +12,7 @@
 }
 
 .headerHome {
-    height: 75vh;
+    height: 60vh;
 }
 
 header {
@@ -87,13 +87,14 @@ header {
         @include colorbg;
     }
 
-    .sectionHome {
-        height: 120vh;
+    .sectionHome { 
+        height: 120vh ;
         grid-area: sectionHome;
         text-align: center;
-        @include colorbg;
+        background-color: $color-secundario;
         margin: 0.3rem;
-        scroll-behavior: auto;
+        overflow: auto;
+        
 
         .h2Home {
             padding: 0.5rem;
@@ -110,6 +111,7 @@ header {
             text-align: center;
             color: $color-letras;
         }
+      
     }
 
     .h2Home2 {

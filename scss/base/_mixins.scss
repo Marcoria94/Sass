@@ -1,7 +1,7 @@
 @mixin background {
     background-size: cover;
     background-position: center center;
-    background-repeat: no-repeat
+    background-repeat: no-repeat;
 }
 
 @mixin colorbg {
@@ -15,5 +15,4 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
 }

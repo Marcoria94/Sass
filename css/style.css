@@ -16,6 +16,13 @@
   margin: 5px;
   padding: 5px; }
 
+.contacto .container .formContacto .form div input, .registrate .mainRegistrate .formRegistrate div input, .registrate .secRegistrate .form2Registrate div input {
+  margin-top: 0.5rem;
+  border: 1px solid black;
+  color: black;
+  padding: 0.2rem;
+  background-color: white; }
+
 .index {
   background-image: url(../img/fondohome.jpg);
   background-size: cover;
@@ -182,11 +189,6 @@
     flex-direction: column;
     justify-content: center;
     align-items: center; }
-    .contacto .container .formContacto .form div input {
-      margin-top: 0.5rem;
-      border: 1px solid black;
-      color: black;
-      padding: 0.2rem; }
   .contacto .container div .pContacto {
     color: #D4ECDD;
     text-align: center;

@@ -261,11 +261,8 @@
 
             .form {
                 div {
-                    input {
-                        margin-top: 0.5rem;
-                        border: 1px solid black;
-                        color: black;
-                        padding: 0.2rem;
+                    input{
+                        @extend %input;
                     }
 
                 }
@@ -500,6 +497,11 @@
             font-size: 20px;
             font-weight: 200;
             padding: 1rem;
+            div{
+                input{
+                    @extend %input;
+                }
+            }
         }
 
     }
@@ -524,6 +526,11 @@
             font-size: 20px;
             font-weight: 200;
             padding: 1rem;
+            div{
+                input{
+                    @extend %input;
+                }
+            }
         }
     }
 

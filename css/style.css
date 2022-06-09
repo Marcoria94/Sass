@@ -265,7 +265,7 @@
         margin: 1rem;
         padding: 1rem;
         text-align: center;
-        font-size: 1.5rem;
+        font-size: 1.3rem;
         color: #D4ECDD; }
       .descargas .mainDescargas .divDesc h2 {
         color: #D4ECDD; }
@@ -277,6 +277,8 @@
       width: 70%; }
       .descargas .mainDescargas .divDesc2 h2 {
         text-align: center;
+        color: #D4ECDD; }
+      .descargas .mainDescargas .divDesc2 p {
         color: #D4ECDD; }
   .descargas footer {
     filter: alpha(opacity=80);

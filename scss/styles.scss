@@ -5,7 +5,7 @@
 .index {
     background-image: url(../img/fondohome.jpg);
     @include background;
-    
+
 
 
 
@@ -245,10 +245,14 @@
     }
 
     .container {
+        width: 60%;
+        justify-content: center;
+        @include colorbg;
+        margin-top: 1rem;
+
         .h1Contacto {
-            @include colorbg;
+            padding: 1rem;
             color: $color-letras;
-            @extend %h1;
         }
 
         .formContacto {
@@ -261,7 +265,7 @@
 
             .form {
                 div {
-                    input{
+                    input {
                         @extend %input;
                     }
 
@@ -281,7 +285,7 @@
                 font-size: 1rem;
 
                 span {
-                    color: blue;
+                    color: burlywood;
                     font-size: 1.5rem;
                 }
             }
@@ -369,19 +373,22 @@
         text-align: center;
         margin: 1rem;
 
-        .h1Descargas {
-            width: 70%;
-            grid-area: h1;
-            @include colorbg;
-            text-align: center;
-            color: #D4ECDD;
-            @extend %h1;
-        }
+
 
         .divDesc {
             padding: 1rem;
             width: 70%;
             @include colorbg;
+
+            .h1Descargas {
+
+                grid-area: h1;
+                @include colorbg;
+                text-align: center;
+                color: #D4ECDD;
+
+
+            }
 
             .pDescargas {
                 margin: 1rem;
@@ -405,7 +412,8 @@
                 text-align: center;
                 color: $color-letras;
             }
-            p{
+
+            p {
                 color: $color-letras;
             }
         }
@@ -480,14 +488,6 @@
     .mainRegistrate {
         @include flex;
 
-        .h1Registrate {
-            width: 60%;
-            @include colorbg;
-            text-align: center;
-            color: $color-letras;
-            @extend %h1;
-        }
-
         .formRegistrate {
             width: 60%;
             color: $color-letras;
@@ -497,8 +497,17 @@
             font-size: 20px;
             font-weight: 200;
             padding: 1rem;
-            div{
-                input{
+
+
+            .h1Registrate {
+                text-align: center;
+                color: $color-letras;
+                margin: 1rem;
+                padding: 10px;
+            }
+
+            div {
+                input {
                     @extend %input;
                 }
             }
@@ -510,11 +519,9 @@
         @include flex;
 
         .h2Registrate {
-            width: 60%;
             @include colorbg;
             text-align: center;
             color: $color-letras;
-            @extend %h1;
         }
 
         .form2Registrate {
@@ -526,8 +533,9 @@
             font-size: 20px;
             font-weight: 200;
             padding: 1rem;
-            div{
-                input{
+
+            div {
+                input {
                     @extend %input;
                 }
             }
@@ -601,99 +609,101 @@
 
 
 
-    .mainInformacion {
-        display: grid;
-        justify-content: center;
-        align-items: center;
-        margin: 1rem;
-        grid-template-areas: "h1 h1"
-            "divUno divUno"
-            "divDos divDos"
-            "divTres divTres"
-            "divCuatro divCuatro";
-
-        .h1Informacion {
-            grid-area: h1;
-            text-align: center;
-            color: $color-letras;
-            @extend %h1;
-            @include colorbg;
-
-        }
-
-        .divUno {
-            grid-area: divUno;
-
-            .ulInformacion {
-                @extend %ul;
-            }
-
-        }
-
-        .divDos {
-            grid-area: divDos;
-
-            .ulInformacion2 {
-                @extend %ul;
-            }
-
-        }
-
-        .divTres {
-            grid-area: divTres;
-
-            .ulInformacion3 {
-                @extend %ul;
-            }
-        }
-
-        .divCuatro {
-            grid-area: divCuatro;
-
-            .ulInformacion4 {
-                @extend %ul;
-            }
-
-        }
-    }
-
-
-
-    @media screen and (min-width: 600px) {
-        .mainInformacion {
-            display: grid;
-            justify-content: center;
-            align-items: center;
-            grid-template-areas: "h1 h1"
-                "divUno divDos"
-                "divTres divCuatro";
-        }
-
-    }
-
-    @media screen and (min-width: 1200px) {
-        .mainInformacion {
-            display: grid;
-            justify-content: center;
-            align-items: center;
-            grid-template-areas: "h1 h1 h1 h1"
-                "divUno divUno divDos divDos"
-                "divTres divTres divCuatro divCuatro";
-        }
-
-    }
-
-    footer {
+    .info {
+        background-color: #224f5e;
         filter: alpha(opacity=80);
         opacity: 0.8;
-        background-color: $color-footer;
-        border: 1px solid black;
+        margin: 1rem 2rem 1rem 2rem;
         text-align: center;
-       
+        display: grid;
+        gap: 0.3rem;
+        grid-template-areas: "titulo titulo"
+            "listaUno listaUno"
+            "listaDos listaDos"
+            "listaTres listaTres"
+            "listaCuatro listaCuatro";
 
-        h4 {
+        .tituloInf {
            
             color: $color-letras;
+            margin: 1rem;
+            grid-area: titulo;
+        }
+
+        .listaUno {
+            grid-area: listaUno;
+            @extend %ul;
+        }
+
+        .listaDos {
+            grid-area: listaDos;
+            @extend %ul;
+        }
+
+        .listaTres {
+            grid-area: listaTres;
+            @extend %ul;
+        }
+
+        .listaCuatro {
+            grid-area: listaCuatro;
+            @extend %ul;
         }
     }
-}
+
+
+
+
+       
+        footer {
+            filter: alpha(opacity=80);
+            opacity: 0.8;
+            background-color: $color-footer;
+            border: 1px solid black;
+            text-align: center;
+
+
+            h4 {
+
+                color: $color-letras;
+            }
+        }
+        @media screen and (min-width: 400px) {
+            .info {
+                grid-template-areas: "titulo titulo"
+                    "listaUno listaUno"
+                    "listaDos listaDos"
+                    "listaTres listaTres"
+                    "listaCuatro listaCuatro";
+
+            }
+
+        }
+
+
+        @media screen and (min-width: 600px) {
+            .info {
+                grid-template-areas: "titulo titulo titulo titulo"
+                    "listaUno listaUno listaDos listaDos"
+                    "listaTres listaTres listaCuatro listaCuatro";
+
+            }
+
+        }
+
+        @media screen and (min-width: 1200px) {
+
+            .info {
+                grid-template-areas: "titulo titulo titulo titulo"
+                    "listaUno listaUno listaDos listaDos"
+                    "listaTres listaTres listaCuatro listaCuatro";
+
+            }
+
+
+
+        }
+       
+
+    }
+   

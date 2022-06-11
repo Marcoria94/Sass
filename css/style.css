@@ -1,20 +1,11 @@
-.contacto .container .h1Contacto, .descargas .mainDescargas .h1Descargas, .registrate .mainRegistrate .h1Registrate, .registrate .secRegistrate .h2Registrate, .informacion .mainInformacion .h1Informacion {
+.informacion .info .listaUno, .informacion .info .listaDos, .informacion .info .listaTres, .informacion .info .listaCuatro {
   margin: 1rem;
-  padding: 10px;
-  border: 1px solid black; }
-
-.informacion .mainInformacion .divUno .ulInformacion, .informacion .mainInformacion .divDos .ulInformacion2, .informacion .mainInformacion .divTres .ulInformacion3, .informacion .mainInformacion .divCuatro .ulInformacion4 {
-  color: #D4ECDD;
+  padding: 1rem;
+  font-size: 1.6rem;
   list-style-type: none;
-  text-align: center;
-  background-color: #152D35;
-  filter: alpha(opacity=80);
-  opacity: 0.8;
-  font-size: 25px;
-  font-weight: 100;
-  border: 1px solid black;
-  margin: 5px;
-  padding: 5px; }
+  background-color: white;
+  grid-area: listaUno;
+  box-shadow: 5px 5px 10px; }
 
 .contacto .container .formContacto .form div input, .registrate .mainRegistrate .formRegistrate div input, .registrate .secRegistrate .form2Registrate div input {
   margin-top: 0.5rem;
@@ -172,38 +163,43 @@
       .contacto header nav .navbar .container-fluid .collapse .navbar-nav .nav-item a {
         color: #D4ECDD;
         font-weight: 600; }
-  .contacto .container .h1Contacto {
-    background-color: #152D35;
-    filter: alpha(opacity=80);
-    opacity: 0.8;
-    color: #D4ECDD; }
-  .contacto .container .formContacto {
-    color: #D4ECDD;
-    background-color: #152D35;
-    filter: alpha(opacity=80);
-    opacity: 0.8;
-    padding: 1rem;
-    text-align: center;
-    font-size: 1.5rem;
-    display: flex;
-    flex-direction: column;
+  .contacto .container {
+    width: 60%;
     justify-content: center;
-    align-items: center; }
-  .contacto .container div .pContacto {
-    color: #D4ECDD;
-    text-align: center;
-    font-weight: 300;
-    font-size: 1rem; }
-    .contacto .container div .pContacto span {
-      color: blue;
-      font-size: 1.5rem; }
-  .contacto .container div .imgContacto {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: flex-end;
-    gap: 0.3rem;
-    padding: 0.5rem; }
+    background-color: #152D35;
+    filter: alpha(opacity=80);
+    opacity: 0.8;
+    margin-top: 1rem; }
+    .contacto .container .h1Contacto {
+      padding: 1rem;
+      color: #D4ECDD; }
+    .contacto .container .formContacto {
+      color: #D4ECDD;
+      background-color: #152D35;
+      filter: alpha(opacity=80);
+      opacity: 0.8;
+      padding: 1rem;
+      text-align: center;
+      font-size: 1.5rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center; }
+    .contacto .container div .pContacto {
+      color: #D4ECDD;
+      text-align: center;
+      font-weight: 300;
+      font-size: 1rem; }
+      .contacto .container div .pContacto span {
+        color: burlywood;
+        font-size: 1.5rem; }
+    .contacto .container div .imgContacto {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: flex-end;
+      gap: 0.3rem;
+      padding: 0.5rem; }
   .contacto footer {
     filter: alpha(opacity=80);
     opacity: 0.8;
@@ -249,20 +245,19 @@
     align-items: center;
     text-align: center;
     margin: 1rem; }
-    .descargas .mainDescargas .h1Descargas {
-      width: 70%;
-      grid-area: h1;
-      background-color: #152D35;
-      filter: alpha(opacity=80);
-      opacity: 0.8;
-      text-align: center;
-      color: #D4ECDD; }
     .descargas .mainDescargas .divDesc {
       padding: 1rem;
       width: 70%;
       background-color: #152D35;
       filter: alpha(opacity=80);
       opacity: 0.8; }
+      .descargas .mainDescargas .divDesc .h1Descargas {
+        grid-area: h1;
+        background-color: #152D35;
+        filter: alpha(opacity=80);
+        opacity: 0.8;
+        text-align: center;
+        color: #D4ECDD; }
       .descargas .mainDescargas .divDesc .pDescargas {
         margin: 1rem;
         padding: 1rem;
@@ -325,13 +320,6 @@
     flex-direction: column;
     justify-content: center;
     align-items: center; }
-    .registrate .mainRegistrate .h1Registrate {
-      width: 60%;
-      background-color: #152D35;
-      filter: alpha(opacity=80);
-      opacity: 0.8;
-      text-align: center;
-      color: #D4ECDD; }
     .registrate .mainRegistrate .formRegistrate {
       width: 60%;
       color: #D4ECDD;
@@ -343,13 +331,17 @@
       font-size: 20px;
       font-weight: 200;
       padding: 1rem; }
+      .registrate .mainRegistrate .formRegistrate .h1Registrate {
+        text-align: center;
+        color: #D4ECDD;
+        margin: 1rem;
+        padding: 10px; }
   .registrate .secRegistrate {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center; }
     .registrate .secRegistrate .h2Registrate {
-      width: 60%;
       background-color: #152D35;
       filter: alpha(opacity=80);
       opacity: 0.8;
@@ -404,39 +396,27 @@
       .informacion header nav .navbar .container-fluid .collapse .navbar-nav .nav-item a {
         color: #D4ECDD;
         font-weight: 600; }
-  .informacion .mainInformacion {
+  .informacion .info {
+    background-color: #224f5e;
+    filter: alpha(opacity=80);
+    opacity: 0.8;
+    margin: 1rem 2rem 1rem 2rem;
+    text-align: center;
     display: grid;
-    justify-content: center;
-    align-items: center;
-    margin: 1rem;
-    grid-template-areas: "h1 h1" "divUno divUno" "divDos divDos" "divTres divTres" "divCuatro divCuatro"; }
-    .informacion .mainInformacion .h1Informacion {
-      grid-area: h1;
-      text-align: center;
+    gap: 0.3rem;
+    grid-template-areas: "titulo titulo" "listaUno listaUno" "listaDos listaDos" "listaTres listaTres" "listaCuatro listaCuatro"; }
+    .informacion .info .tituloInf {
       color: #D4ECDD;
-      background-color: #152D35;
-      filter: alpha(opacity=80);
-      opacity: 0.8; }
-    .informacion .mainInformacion .divUno {
-      grid-area: divUno; }
-    .informacion .mainInformacion .divDos {
-      grid-area: divDos; }
-    .informacion .mainInformacion .divTres {
-      grid-area: divTres; }
-    .informacion .mainInformacion .divCuatro {
-      grid-area: divCuatro; }
-  @media screen and (min-width: 600px) {
-    .informacion .mainInformacion {
-      display: grid;
-      justify-content: center;
-      align-items: center;
-      grid-template-areas: "h1 h1" "divUno divDos" "divTres divCuatro"; } }
-  @media screen and (min-width: 1200px) {
-    .informacion .mainInformacion {
-      display: grid;
-      justify-content: center;
-      align-items: center;
-      grid-template-areas: "h1 h1 h1 h1" "divUno divUno divDos divDos" "divTres divTres divCuatro divCuatro"; } }
+      margin: 1rem;
+      grid-area: titulo; }
+    .informacion .info .listaUno {
+      grid-area: listaUno; }
+    .informacion .info .listaDos {
+      grid-area: listaDos; }
+    .informacion .info .listaTres {
+      grid-area: listaTres; }
+    .informacion .info .listaCuatro {
+      grid-area: listaCuatro; }
   .informacion footer {
     filter: alpha(opacity=80);
     opacity: 0.8;
@@ -445,3 +425,12 @@
     text-align: center; }
     .informacion footer h4 {
       color: #D4ECDD; }
+  @media screen and (min-width: 400px) {
+    .informacion .info {
+      grid-template-areas: "titulo titulo" "listaUno listaUno" "listaDos listaDos" "listaTres listaTres" "listaCuatro listaCuatro"; } }
+  @media screen and (min-width: 600px) {
+    .informacion .info {
+      grid-template-areas: "titulo titulo titulo titulo" "listaUno listaUno listaDos listaDos" "listaTres listaTres listaCuatro listaCuatro"; } }
+  @media screen and (min-width: 1200px) {
+    .informacion .info {
+      grid-template-areas: "titulo titulo titulo titulo" "listaUno listaUno listaDos listaDos" "listaTres listaTres listaCuatro listaCuatro"; } }

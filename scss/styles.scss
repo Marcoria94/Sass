@@ -627,7 +627,7 @@
             grid-area: listaUno;
             @extend %ul;
             .fondoLi{
-                background-color: $color-secundario;
+                background-color: #224f5e;
                 color: $color-letras;
             }
             .fondoLii{
@@ -639,9 +639,8 @@
         .listaDos {
             grid-area: listaDos;
             @extend %ul;
-            @extend %ul;
             .fondoLi{
-                background-color: $color-secundario;
+                background-color: #224f5e;
                 color: $color-letras;
             }
             .fondoLii{
@@ -652,9 +651,8 @@
         .listaTres {
             grid-area: listaTres;
             @extend %ul;
-            @extend %ul;
             .fondoLi{
-                background-color: $color-secundario;
+                background-color: #224f5e;
                 color: $color-letras;
             }
             .fondoLii{
@@ -665,9 +663,8 @@
         .listaCuatro {
             grid-area: listaCuatro;
             @extend %ul;
-            @extend %ul;
             .fondoLi{
-                background-color: $color-secundario;
+                background-color: #224f5e;
                 color: $color-letras;
             }
             .fondoLii{
@@ -703,11 +700,11 @@
     }
 
 
-    @media screen and (min-width: 600px) {
+    @media screen and (min-width: 770px) {
         .info {
-            grid-template-areas: "titulo titulo titulo titulo"
-                "listaUno listaUno listaDos listaDos"
-                "listaTres listaTres listaCuatro listaCuatro";
+            grid-template-areas:"titulo titulo titulo titulo"
+            "listaUno listaUno listaDos listaDos"
+            "listaTres listaTres listaCuatro listaCuatro";
 
         }
 

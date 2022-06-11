@@ -409,28 +409,28 @@
     .informacion .info .listaUno {
       grid-area: listaUno; }
       .informacion .info .listaUno .fondoLi {
-        background-color: #152D35;
+        background-color: #224f5e;
         color: #D4ECDD; }
       .informacion .info .listaUno .fondoLii {
         background-color: #D4ECDD; }
     .informacion .info .listaDos {
       grid-area: listaDos; }
       .informacion .info .listaDos .fondoLi {
-        background-color: #152D35;
+        background-color: #224f5e;
         color: #D4ECDD; }
       .informacion .info .listaDos .fondoLii {
         background-color: #D4ECDD; }
     .informacion .info .listaTres {
       grid-area: listaTres; }
       .informacion .info .listaTres .fondoLi {
-        background-color: #152D35;
+        background-color: #224f5e;
         color: #D4ECDD; }
       .informacion .info .listaTres .fondoLii {
         background-color: #D4ECDD; }
     .informacion .info .listaCuatro {
       grid-area: listaCuatro; }
       .informacion .info .listaCuatro .fondoLi {
-        background-color: #152D35;
+        background-color: #224f5e;
         color: #D4ECDD; }
       .informacion .info .listaCuatro .fondoLii {
         background-color: #D4ECDD; }
@@ -445,7 +445,7 @@
   @media screen and (min-width: 400px) {
     .informacion .info {
       grid-template-areas: "titulo titulo" "listaUno listaUno" "listaDos listaDos" "listaTres listaTres" "listaCuatro listaCuatro"; } }
-  @media screen and (min-width: 600px) {
+  @media screen and (min-width: 770px) {
     .informacion .info {
       grid-template-areas: "titulo titulo titulo titulo" "listaUno listaUno listaDos listaDos" "listaTres listaTres listaCuatro listaCuatro"; } }
   @media screen and (min-width: 1200px) {

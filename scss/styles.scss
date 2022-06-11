@@ -241,7 +241,7 @@
     }
 
     .container {
-        width: 60%;
+        width: 75%;
         justify-content: center;
         @include colorbg;
         margin-top: 1rem;
@@ -282,15 +282,12 @@
 
                 span {
                     color: burlywood;
-                    font-size: 1.5rem;
                 }
             }
 
             .imgContacto {
                 display: flex;
-                flex-direction: row;
-                align-items: center;
-                justify-content: flex-end;
+                justify-content: center;
                 gap: 0.3rem;
                 padding: 0.5rem;
             }

@@ -1,6 +1,6 @@
 .informacion .info .listaUno, .informacion .info .listaDos, .informacion .info .listaTres, .informacion .info .listaCuatro {
   margin: 1rem;
-  padding: 1rem;
+  padding: 0.5rem;
   font-size: 1.6rem;
   list-style-type: none;
   background-color: white;
@@ -411,12 +411,32 @@
       grid-area: titulo; }
     .informacion .info .listaUno {
       grid-area: listaUno; }
+      .informacion .info .listaUno .fondoLi {
+        background-color: #152D35;
+        color: #D4ECDD; }
+      .informacion .info .listaUno .fondoLii {
+        background-color: #D4ECDD; }
     .informacion .info .listaDos {
       grid-area: listaDos; }
+      .informacion .info .listaDos .fondoLi {
+        background-color: #152D35;
+        color: #D4ECDD; }
+      .informacion .info .listaDos .fondoLii {
+        background-color: #D4ECDD; }
     .informacion .info .listaTres {
       grid-area: listaTres; }
+      .informacion .info .listaTres .fondoLi {
+        background-color: #152D35;
+        color: #D4ECDD; }
+      .informacion .info .listaTres .fondoLii {
+        background-color: #D4ECDD; }
     .informacion .info .listaCuatro {
       grid-area: listaCuatro; }
+      .informacion .info .listaCuatro .fondoLi {
+        background-color: #152D35;
+        color: #D4ECDD; }
+      .informacion .info .listaCuatro .fondoLii {
+        background-color: #D4ECDD; }
   .informacion footer {
     filter: alpha(opacity=80);
     opacity: 0.8;

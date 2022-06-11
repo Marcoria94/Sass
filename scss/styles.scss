@@ -6,10 +6,6 @@
     background-image: url(../img/fondohome.jpg);
     @include background;
 
-
-
-
-
     .headerHome {
         height: 65vh;
 
@@ -624,7 +620,7 @@
             "listaCuatro listaCuatro";
 
         .tituloInf {
-           
+
             color: $color-letras;
             margin: 1rem;
             grid-area: titulo;
@@ -633,77 +629,105 @@
         .listaUno {
             grid-area: listaUno;
             @extend %ul;
+            .fondoLi{
+                background-color: $color-secundario;
+                color: $color-letras;
+            }
+            .fondoLii{
+                background-color: $color-letras;
+            }                
+            
         }
 
         .listaDos {
             grid-area: listaDos;
             @extend %ul;
+            @extend %ul;
+            .fondoLi{
+                background-color: $color-secundario;
+                color: $color-letras;
+            }
+            .fondoLii{
+                background-color: $color-letras;
+            }  
         }
 
         .listaTres {
             grid-area: listaTres;
             @extend %ul;
+            @extend %ul;
+            .fondoLi{
+                background-color: $color-secundario;
+                color: $color-letras;
+            }
+            .fondoLii{
+                background-color: $color-letras;
+            }  
         }
 
         .listaCuatro {
             grid-area: listaCuatro;
             @extend %ul;
-        }
-    }
-
-
-
-
-       
-        footer {
-            filter: alpha(opacity=80);
-            opacity: 0.8;
-            background-color: $color-footer;
-            border: 1px solid black;
-            text-align: center;
-
-
-            h4 {
-
+            @extend %ul;
+            .fondoLi{
+                background-color: $color-secundario;
                 color: $color-letras;
             }
+            .fondoLii{
+                background-color: $color-letras;
+            }  
         }
-        @media screen and (min-width: 400px) {
-            .info {
-                grid-template-areas: "titulo titulo"
-                    "listaUno listaUno"
-                    "listaDos listaDos"
-                    "listaTres listaTres"
-                    "listaCuatro listaCuatro";
+    }
 
-            }
+    footer {
+        filter: alpha(opacity=80);
+        opacity: 0.8;
+        background-color: $color-footer;
+        border: 1px solid black;
+        text-align: center;
 
+
+        h4 {
+
+            color: $color-letras;
         }
+    }
 
-
-        @media screen and (min-width: 600px) {
-            .info {
-                grid-template-areas: "titulo titulo titulo titulo"
-                    "listaUno listaUno listaDos listaDos"
-                    "listaTres listaTres listaCuatro listaCuatro";
-
-            }
-
-        }
-
-        @media screen and (min-width: 1200px) {
-
-            .info {
-                grid-template-areas: "titulo titulo titulo titulo"
-                    "listaUno listaUno listaDos listaDos"
-                    "listaTres listaTres listaCuatro listaCuatro";
-
-            }
-
-
+    @media screen and (min-width: 400px) {
+        .info {
+            grid-template-areas: "titulo titulo"
+                "listaUno listaUno"
+                "listaDos listaDos"
+                "listaTres listaTres"
+                "listaCuatro listaCuatro";
 
         }
-       
 
     }
-   
+
+
+    @media screen and (min-width: 600px) {
+        .info {
+            grid-template-areas: "titulo titulo titulo titulo"
+                "listaUno listaUno listaDos listaDos"
+                "listaTres listaTres listaCuatro listaCuatro";
+
+        }
+
+    }
+
+    @media screen and (min-width: 1200px) {
+
+        .info {
+            grid-template-areas: "titulo titulo titulo titulo"
+                "listaUno listaUno listaDos listaDos"
+                "listaTres listaTres listaCuatro listaCuatro";
+
+        }
+
+
+
+    }
+
+
+}

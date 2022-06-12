@@ -267,10 +267,6 @@
 
                 }
             }
-
-
-
-
         }
 
         div {
@@ -365,8 +361,6 @@
         @include flex;
         text-align: center;
         margin: 1rem;
-
-
 
         .divDesc {
             padding: 1rem;
@@ -626,50 +620,58 @@
         .listaUno {
             grid-area: listaUno;
             @extend %ul;
-            .fondoLi{
+
+            .fondoLi {
                 background-color: #224f5e;
                 color: $color-letras;
             }
-            .fondoLii{
+
+            .fondoLii {
                 background-color: $color-letras;
-            }                
-            
+            }
+
         }
 
         .listaDos {
             grid-area: listaDos;
             @extend %ul;
-            .fondoLi{
+
+            .fondoLi {
                 background-color: #224f5e;
                 color: $color-letras;
             }
-            .fondoLii{
+
+            .fondoLii {
                 background-color: $color-letras;
-            }  
+            }
         }
 
         .listaTres {
             grid-area: listaTres;
             @extend %ul;
-            .fondoLi{
+
+            .fondoLi {
                 background-color: #224f5e;
                 color: $color-letras;
             }
-            .fondoLii{
+
+            .fondoLii {
                 background-color: $color-letras;
-            }  
+            }
         }
 
         .listaCuatro {
             grid-area: listaCuatro;
             @extend %ul;
-            .fondoLi{
+
+            .fondoLi {
                 background-color: #224f5e;
                 color: $color-letras;
             }
-            .fondoLii{
+
+            .fondoLii {
                 background-color: $color-letras;
-            }  
+            }
         }
     }
 
@@ -702,9 +704,9 @@
 
     @media screen and (min-width: 770px) {
         .info {
-            grid-template-areas:"titulo titulo titulo titulo"
-            "listaUno listaUno listaDos listaDos"
-            "listaTres listaTres listaCuatro listaCuatro";
+            grid-template-areas: "titulo titulo titulo titulo"
+                "listaUno listaUno listaDos listaDos"
+                "listaTres listaTres listaCuatro listaCuatro";
 
         }
 
@@ -716,12 +718,6 @@
             grid-template-areas: "titulo titulo titulo titulo"
                 "listaUno listaUno listaDos listaDos"
                 "listaTres listaTres listaCuatro listaCuatro";
-
         }
-
-
-
     }
-
-
 }

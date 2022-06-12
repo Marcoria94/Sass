@@ -20,7 +20,7 @@
   background-position: center center;
   background-repeat: no-repeat; }
   .index .headerHome {
-    height: 65vh; }
+    height: 70vh; }
     .index .headerHome nav .navbar .container-fluid {
       background-color: #345B63;
       filter: alpha(opacity=80);
@@ -196,7 +196,7 @@
       display: flex;
       justify-content: center;
       gap: 0.3rem;
-      padding: 0.5rem; }
+      margin: 1rem; }
   .contacto footer {
     filter: alpha(opacity=80);
     opacity: 0.8;

@@ -7,7 +7,7 @@
     @include background;
 
     .headerHome {
-        height: 65vh;
+        height: 70vh;
 
 
         nav {
@@ -280,16 +280,23 @@
                     color: burlywood;
                 }
             }
+        }
 
+        div {
             .imgContacto {
                 display: flex;
                 justify-content: center;
                 gap: 0.3rem;
-                padding: 0.5rem;
+                margin: 1rem;
             }
-
         }
+
+
     }
+
+
+
+
 
     footer {
         filter: alpha(opacity=80);

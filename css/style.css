@@ -41,7 +41,8 @@
         justify-content: center;
         gap: 1rem; }
         .index .headerHome nav .navbar .container-fluid .collapse .navbar-nav .nav-item :hover {
-          background-color: #152D35; }
+          background-color: #152D35;
+          transform: scale(1.2); }
         .index .headerHome nav .navbar .container-fluid .collapse .navbar-nav .nav-item a {
           color: #D4ECDD;
           font-weight: 600; }
@@ -159,7 +160,8 @@
       justify-content: center;
       gap: 1rem; }
       .contacto header nav .navbar .container-fluid .collapse .navbar-nav .nav-item :hover {
-        background-color: #152D35; }
+        background-color: #152D35;
+        transform: scale(1.2); }
       .contacto header nav .navbar .container-fluid .collapse .navbar-nav .nav-item a {
         color: #D4ECDD;
         font-weight: 600; }
@@ -231,7 +233,8 @@
       justify-content: center;
       gap: 1rem; }
       .descargas header nav .navbar .container-fluid .collapse .navbar-nav .nav-item :hover {
-        background-color: #152D35; }
+        background-color: #152D35;
+        transform: scale(1.2); }
       .descargas header nav .navbar .container-fluid .collapse .navbar-nav .nav-item a {
         color: #D4ECDD;
         font-weight: 600; }
@@ -308,7 +311,8 @@
       justify-content: center;
       gap: 1rem; }
       .registrate header nav .navbar .container-fluid .collapse .navbar-nav .nav-item :hover {
-        background-color: #152D35; }
+        background-color: #152D35;
+        transform: scale(1.2); }
       .registrate header nav .navbar .container-fluid .collapse .navbar-nav .nav-item a {
         color: #D4ECDD;
         font-weight: 600; }
@@ -389,12 +393,13 @@
       justify-content: center;
       gap: 1rem; }
       .informacion header nav .navbar .container-fluid .collapse .navbar-nav .nav-item :hover {
-        background-color: #152D35; }
+        background-color: #152D35;
+        transform: scale(1.2); }
       .informacion header nav .navbar .container-fluid .collapse .navbar-nav .nav-item a {
         color: #D4ECDD;
         font-weight: 600; }
   .informacion .info {
-    background-color: #224f5e;
+    background-color: #152D35;
     filter: alpha(opacity=80);
     opacity: 0.8;
     margin: 1rem 2rem 1rem 2rem;

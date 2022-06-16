@@ -39,6 +39,7 @@
                             .nav-item {
                                 :hover {
                                     background-color: $color-secundario;
+                                    transform: scale(1.2);
                                 }
 
                                 a {
@@ -224,6 +225,7 @@
                             .nav-item {
                                 :hover {
                                     background-color: $color-secundario;
+                                    transform: scale(1.2);
                                 }
 
                                 a {
@@ -347,6 +349,7 @@
                             .nav-item {
                                 :hover {
                                     background-color: $color-secundario;
+                                    transform: scale(1.2);
                                 }
 
                                 a {
@@ -462,6 +465,7 @@
                             .nav-item {
                                 :hover {
                                     background-color: $color-secundario;
+                                    transform: scale(1.2);
                                 }
 
                                 a {
@@ -585,6 +589,7 @@
                             .nav-item {
                                 :hover {
                                     background-color: $color-secundario;
+                                    transform: scale(1.2);
                                 }
 
                                 a {
@@ -604,9 +609,7 @@
 
 
     .info {
-        background-color: #224f5e;
-        filter: alpha(opacity=80);
-        opacity: 0.8;
+        @include colorbg;
         margin: 1rem 2rem 1rem 2rem;
         text-align: center;
         display: grid;
